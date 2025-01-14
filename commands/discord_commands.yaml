@@ -1,0 +1,16 @@
+- name: hello
+  description: Say hello!
+
+- name: bye
+  description: Say bye!
+
+- name: search
+  description: Wes shall implement it soon!
+
+- name: echo
+  description: Echo message back to sender.
+  options:
+    - name: message
+      description: The message to echo back.
+      type: 3 # string
+      required: true
